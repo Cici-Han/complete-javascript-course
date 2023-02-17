@@ -17,7 +17,6 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').textContent = secretNumber;
 
     document.querySelector('body').style.backgroundColor = '#60b347';
-
     document.querySelector('.number').style.width = '30rem';
 
     //when the guess is too high
@@ -41,7 +40,6 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 document.querySelector('.again').addEventListener('click', function () {
-  score = 20;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   console.log('click again');
 });
